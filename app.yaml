@@ -1,0 +1,18 @@
+application: pacificflooringca
+version: 4
+runtime: python
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /(.*\.(gif|png|jpg|JPG|swf|pdf|css|js|ico|bmp|BMP|txt|xml|html))
+  static_files: \1
+  upload: (.*\.(gif|png|jpg|JPG|swf|pdf|css|js|ico|bmp|BMP|txt|xml|html))
+
+- url: /.*
+  static_files: index.html
+  upload: index.html

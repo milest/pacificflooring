@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url(../images/backdkblue.jpg);
+	background-repeat: repeat;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+a:link {
+	color: #7A0602;
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: underline;
+	color: #7A0602;
+}
+a:hover {
+	text-decoration: none;
+	color: #7A0602;
+}
+a:active {
+	text-decoration: underline;
+	color: #7A0602;
+}
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	}
+.footer a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-decoration: underline;
+	}
+.footer a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-decoration: underline;
+	}
+.footer a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-decoration: none;
+	}
+.footer a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#FFFFFF;
+	text-decoration: underline;
+	}
+.heading {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:#790601;
+	font-weight:bold;
+	}
+	
+.products_text{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#f9fbc5;
+	font-weight:bold;
+	}
+.content{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	text-align:justify;
+	line-height:18px;
+	}
+.content_home{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	text-align:justify;
+	line-height:21px;
+	}	
+.content_bold{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	color:#000000;
+	}
+.content_bold_small{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	color:#790601;
+	}
